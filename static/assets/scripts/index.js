@@ -49,4 +49,11 @@ function isUrl(val = '') {
   if (/^http(s?):\/\//.test(val) || (val.includes('.') && val.substr(0, 1) !== ' ')) return true
   return false
 }
- var pass1="cool"; password=prompt('Password?',' '); if (password==pass1) alert("Correct. Welcome to Chang's interstellar."); else { window.location="pornhub.com"; }
+ var password
+var pass1 = 'pass1'
+password = prompt('Please enter your password.', ' ')
+if (password == pass1) alert('Password Correct! This site is made by Chang.')
+else {
+ window.location = 'google.com'
+}
+
